@@ -88,7 +88,7 @@ public class BookEm {
 		allHosts.add(new BookEmHost("bourdain-guide", 4 + random.nextInt(3), 0, 100));
 		
 		SplitClientConfig config = SplitClientConfig.builder().ready(60000).eventFlushIntervalInMillis(1000).build();
-		SplitFactory splitFactory = SplitFactoryBuilder.build("67ustpreuviaiv22pfc6ke8tleu42f8bem77", config);
+		SplitFactory splitFactory = SplitFactoryBuilder.build("67u****PROVIDE SDK KEY FROM SPLIT ADMIN UI***", config);
 		SplitClient client = splitFactory.client();
 		
 		try {
